@@ -1,13 +1,13 @@
 
 ## Quick start
-
+Note: make sure you have installed java on your computer. If you run into any problems with these steps try closing and reopening the terminal.
 1. From the terminal, clone the git repo — `git clone https://github.com/sonjetty/briostack.git` (Note: You will need to have git installed on your machine)
 
-2. run `npm i` (note: it is unlikely but you may need to run `npm install @wdio/jasmine-framework --save-dev`)
+2. use nvm to install node version 8
 
-3. use nvm to install node version 8
+3. run `npm i` (note: it is unlikely but you may need to run `npm install @wdio/jasmine-framework --save-dev`)
 
-4. merge the scripts to your `package.json` scripts
+4. Find the `chromedriver.exe` file inside of the project. Once you have found it move the file node_modules>chromedriver>lib
 
 5. for web testing run `npm run web.browser`
 
