@@ -1,19 +1,18 @@
 
 ## Quick start
-Choose one of the following options:
 
-1. Clone the git repo — `git clone https://github.com/webdriverio/appium-boilerplate.git`
+1. From the terminal, clone the git repo — `git clone https://github.com/sonjetty/briostack.git` (Note: You will need to have git installed on your machine)
 
-2. Then copy the files to your project directory (all files in `/test` and the `wdio.conf`-files in the `config`-folder)
+2. run `npm i` (note: it is unlikely but you may need to run `npm install @wdio/jasmine-framework --save-dev`)
 
-3. Merge project dev dependencies with your projects dev dependencies in your `package.json`
+3. use nvm to install node version 8
 
 4. merge the scripts to your `package.json` scripts
 
-5. Run the tests for iOS with `npm run ios.app` and for Android with `npm run android.app`
+5. for web testing run `npm run web.browser`
 
 ## Config
-This boilerplate uses a specific config for iOS and Android, see [configs](./config/) and are based on `wdio.shared.conf.js`.
+This uses a specific config for iOS and Android, see [configs](./config/) and are based on `wdio.shared.conf.js`.
 This shared config holds all the defaults so the iOS and Android configs only need to hold the capabilities and specs that are needed for running on iOS and or Android (app or browser).
 
 ## Locator strategy for native apps
